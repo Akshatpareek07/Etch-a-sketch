@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border: 5px solid black;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+.new{
+    background-color: blue;
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    height:inherit;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.new_column{
+    flex: 1;
+    display: flex;
+    width: inherit;
+    height: auto;
+    justify-content: flex-start;
+
+    align-items: stretch;
+    border: 1px solid black;
+    
+}
